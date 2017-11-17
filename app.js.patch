@@ -1,0 +1,11 @@
+--- app.js.before	2017-11-17 12:09:31.990478001 -0500
++++ app.js	2017-11-17 12:09:49.299128000 -0500
+@@ -13,7 +13,7 @@
+ 
+ // view engine setup
+ app.set('views', path.join(__dirname, 'views'));
+-app.set('view engine', 'jade');
++app.set('view engine', 'pug');
+ 
+ // uncomment after placing your favicon in /public
+ //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
